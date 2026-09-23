@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login {
+    width: 175px;
+    height: 125px;
+    border: 1px solid blue;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+
+p {
+    width: 125px;
+    height: 20px;
+    border: 1px solid green;
+    font-size: 10px;
+    margin-bottom: 8px;
+}
+
+.entrar {
+    width: 75px;
+}
